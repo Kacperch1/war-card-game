@@ -1,3 +1,6 @@
+from card import Card
+
+
 def printLogo():
     print(f'#################################')
     print(f'#################################')
@@ -8,3 +11,4 @@ def printLogo():
 
 if __name__ == '__main__':
     printLogo()
+    print(Card.all_cards())
